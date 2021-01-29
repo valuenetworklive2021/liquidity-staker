@@ -2,7 +2,11 @@
   "name": "@valueswap/liquidity-staker",
   "version": "1.0.0",
   "description": "valueswap liquidity-staker",
-  "author": "Value Network",
+  "author": {
+    "name": "Value Network",
+    "email": "support@valuenetwork.live",
+    "url": "https://valuenetwork.live"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/valuenetworklive2021/valueswap-liquidity-staker"
