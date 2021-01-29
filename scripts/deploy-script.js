@@ -5,7 +5,7 @@ const hre = require('hardhat');
 
 async function main() {
   checkDir();
-  const rewardsToken = '0xd0f05D3D4e4d1243Ac826d8c6171180c58eaa9BC'; // VNTW_ADDRESS
+  const rewardsToken = '0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50'; // VNTW_ADDRESS
   const stakingRewardsGenesis = parseInt(new Date("2020-12-28T00:00:00.000Z").getTime()/1000);
   const infoStakingRewardsFactory = await deployStakingRewardsFactory(rewardsToken, stakingRewardsGenesis);
 }
